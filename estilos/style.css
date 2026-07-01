@@ -5,3 +5,16 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+ 
+section#login{
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    display: inline-block;
+}
