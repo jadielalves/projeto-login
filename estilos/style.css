@@ -15,7 +15,7 @@
 }
 
 html, body{
-    background-color: #5f2c82;
+    background-color: #7e7eff;
     width: 100vw;
     height: 100vh;
 }
@@ -28,6 +28,7 @@ main{
 
 section{
     background-color: white;
+    overflow: hidden;
 
     position: absolute;
     top: 50%;
@@ -38,35 +39,27 @@ section{
     height: 500px;
 
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+
+    transition: width 0.5s, heigth 0.5s;
 }
 
 #imagem{
-    background: url(../);
+    background: url(../imagens/login.jpg) no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+
 }
 
 #formulario{
-    text-align: center;
+    display: block;
+    padding: 10px;
+    text-align: justify;
+
 }
 
 #formulario h1{
-    margin-top: 10px;
+    text-align: center;
 }
 
-#formulario p{
-    text-align: justify;
-    padding: 10px;
-}
-
-#user{
-    background-color: red;
-}
-
-span{
-    margin-top: 10px;
-}
-
-div{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-}
